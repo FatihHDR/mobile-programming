@@ -4,8 +4,12 @@ description: A new Flutter project
 dependencies:
   flutter:
     sdk: flutter
+  get: ^4.6.6
 
-  get: ^4.6.6  # Update to the latest version
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
 
 environment:
   sdk: '^3.8.0'
